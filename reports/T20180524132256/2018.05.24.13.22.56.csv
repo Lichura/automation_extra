@@ -1,0 +1,19 @@
+dress_type;color;size;browser;result;time;exception
+Casual;Orange;M;chrome;SUCCESS;39;
+Casual;Orange;L;chrome;SUCCESS;39;
+Evening;Beige;M;chrome;SUCCESS;28;
+Evening;Beige;L;chrome;SUCCESS;39;
+Evening;Pink;M;chrome;SUCCESS;39;
+Evening;Pink;L;chrome;SUCCESS;39;
+Summer;White;M;chrome;SUCCESS;39;
+Summer;White;L;chrome;SUCCESS;28;
+Summer;Black;M;chrome;SUCCESS;39;
+Summer;Black;L;chrome;SUCCESS;28;
+Summer;Orange;M;chrome;NOT EXECUTED;0.0;None
+Summer;Orange;L;chrome;NOT EXECUTED;0.0;None
+Summer;Blue;M;chrome;NOT EXECUTED;0.0;None
+Summer;Blue;L;chrome;NOT EXECUTED;0.0;None
+Summer;Green;M;chrome;NOT EXECUTED;0.0;None
+Summer;Green;L;chrome;NOT EXECUTED;0.0;None
+Summer;Yellow;M;chrome;NOT EXECUTED;0.0;None
+Summer;Yellow;L;chrome;NOT EXECUTED;0.0;None

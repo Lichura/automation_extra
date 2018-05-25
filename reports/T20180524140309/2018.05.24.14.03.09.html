@@ -1,0 +1,1779 @@
+<html>
+	<head>
+		<title>
+			Demo client test report 2018.05.24.14.03.09
+		</title>
+		<meta charset="UTF-8">
+		</meta>
+		<style>
+			table {font-family: arial, sans-serif; border-collapse: collapse; width: 100%;}
+td, th {border: 1px solid #dddddd; text-align: left; padding: 8px; text-align:center;}
+tr:nth-child(even) {background-color: #dddddd;}
+		</style>
+	</head>
+	<body>
+		<hr>
+		<h1 align="center">
+			Online shop test report from 24/05/2018
+		</h1>
+		<hr>
+	</body>
+	<br>
+	<div  name="browser_table">
+		<table>
+			<tbody>
+				<tr>
+					<th>
+Browser: Chrome
+					</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br>
+	<div  name="results_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Result
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						Failure
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						18
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="dress_type_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Dress type
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						Casual
+					</th>
+					<th>
+						Evening
+					</th>
+					<th>
+						Summer
+					</th>
+				</tr>
+				<tr>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						4
+					</th>
+					<th  style="color: red;">
+						12
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="color_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Color
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						Orange
+					</th>
+					<th>
+						Beige
+					</th>
+					<th>
+						Pink
+					</th>
+					<th>
+						White
+					</th>
+					<th>
+						Black
+					</th>
+					<th>
+						Blue
+					</th>
+					<th>
+						Green
+					</th>
+					<th>
+						Yellow
+					</th>
+				</tr>
+				<tr>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						4
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="size_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Size
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						M
+					</th>
+					<th>
+						L
+					</th>
+				</tr>
+				<tr>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						9
+					</th>
+					<th  style="color: red;">
+						9
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="exception_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Exception
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						UnhandledAlertException
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						18
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div>
+		<h3>
+			Online shop: Page Failures
+		</h3>
+		<hr>
+		<div  id="img0">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Casual; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E0">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: c7bd78788b92ce423def2fc5da812ab3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img0').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img0 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img1">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Casual; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E1">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 36efbe807b00ad10d9302c550083b0e9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img1').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img1 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img2">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Beige; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E2">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 6f7ebfd0ff06dae8f9a1e973d0ff34e8
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img2').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img2 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img3">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Beige; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E3">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9e16e23f1ccc841e9a948c817f2365d0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img3').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img3 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img4">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Pink; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E4">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e594f4456b4c85bdeb447a7321eebe4b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img4').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img4 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img5">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Pink; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E5">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 62901aa4c091093fb579d4652e3a80c7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img5').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img5 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img6">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					White; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E6">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e8996d4874b4b37964e08afd93c79955
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img6').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img6 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img7">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					White; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E7">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: a8949555b832921f55bab3a0a7340d04
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img7').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img7 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img8">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Black; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E8">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ca57ada31741ef705cbbb9d15dfb8d13
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img8').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img8 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img9">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Black; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E9">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: f4cc15a2bffa570c9c0910fe4a02e0bb
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img9').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img9 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img10">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E10">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 479f79185a758e0b126b76c8edc4822b
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img10').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img10 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img11">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E11">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 027921732d9784458c2a0737c3e92f89
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img11').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img11 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img12">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Blue; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E12">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 7d158441ec25e4478edc9de7b8c33f11
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img12').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img12 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img13">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Blue; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E13">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 91c5cd790ad53dc7941fcc23953903c3
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img13').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img13 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img14">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Green; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E14">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 6025148bb61a92fb3d660ef07051b136
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img14').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img14 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img15">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Green; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E15">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 49ad0de31de2c5e0dc46e9ae7f9cb2b9
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img15').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img15 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img16">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Yellow; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E16">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 0129f785e7d1084c11cb38b6a53b27e5
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img16').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img16 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img17">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Yellow; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E17">
+					org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : N.I.E. Incorrecto
+
+El N.I.E. debe acabar por una letra.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'macags50.local', ip: 'fe80:0:0:0:100a:27bc:9877:178a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/h1/8282mj6j41z...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9b19d155a787bc78198ec590943b0d63
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.automation.model.webdriver.DriverHelper.lambda$waitForPageToLoad$0(DriverHelper.java:1221)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.automation.model.webdriver.DriverHelper.waitForPageToLoad(DriverHelper.java:1221)
+	at com.automation.model.webdriver.DriverHelper.waitForLoadToComplete(DriverHelper.java:1203)
+	at com.automation.model.webdriver.DriverHelper.click(DriverHelper.java:658)
+	at com.project.pages.ExtranjeriaHomePage.rellenarConsulta(ExtranjeriaHomePage.java:44)
+	at com.project.steps.Steps.user_fills_form(Steps.java:47)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:37)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:41)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img17').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img17 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+	</div>
+</html>

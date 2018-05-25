@@ -1,0 +1,19 @@
+dress_type;color;size;browser;result;time;exception
+Casual;Orange;M;chrome;FAILURE;25;java.lang.NullPointerException
+Casual;Orange;L;chrome;FAILURE;25;java.lang.NullPointerException
+Evening;Beige;M;chrome;FAILURE;25;java.lang.NullPointerException
+Evening;Beige;L;chrome;FAILURE;25;java.lang.NullPointerException
+Evening;Pink;M;chrome;FAILURE;25;java.lang.NullPointerException
+Evening;Pink;L;chrome;FAILURE;25;java.lang.NullPointerException
+Summer;White;M;chrome;FAILURE;25;java.lang.NullPointerException
+Summer;White;L;chrome;FAILURE;25;java.lang.NullPointerException
+Summer;Black;M;chrome;FAILURE;25;java.lang.NullPointerException
+Summer;Black;L;chrome;FAILURE;25;java.lang.NullPointerException
+Summer;Orange;M;chrome;NOT EXECUTED;0.0;None
+Summer;Orange;L;chrome;NOT EXECUTED;0.0;None
+Summer;Blue;M;chrome;NOT EXECUTED;0.0;None
+Summer;Blue;L;chrome;NOT EXECUTED;0.0;None
+Summer;Green;M;chrome;FAILURE;1948;java.lang.NullPointerException
+Summer;Green;L;chrome;FAILURE;1948;java.lang.NullPointerException
+Summer;Yellow;M;chrome;NOT EXECUTED;0.0;None
+Summer;Yellow;L;chrome;NOT EXECUTED;0.0;None

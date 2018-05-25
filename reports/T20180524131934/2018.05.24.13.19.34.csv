@@ -1,0 +1,19 @@
+dress_type;color;size;browser;result;time;exception
+Casual;Orange;M;chrome;FAILURE;1930;java.lang.NullPointerException
+Casual;Orange;L;chrome;FAILURE;1930;java.lang.NullPointerException
+Evening;Beige;M;chrome;NOT EXECUTED;0.0;None
+Evening;Beige;L;chrome;NOT EXECUTED;0.0;None
+Evening;Pink;M;chrome;NOT EXECUTED;0.0;None
+Evening;Pink;L;chrome;NOT EXECUTED;0.0;None
+Summer;White;M;chrome;NOT EXECUTED;0.0;None
+Summer;White;L;chrome;FAILURE;1930;java.lang.NullPointerException
+Summer;Black;M;chrome;NOT EXECUTED;0.0;None
+Summer;Black;L;chrome;NOT EXECUTED;0.0;None
+Summer;Orange;M;chrome;NOT EXECUTED;0.0;None
+Summer;Orange;L;chrome;NOT EXECUTED;0.0;None
+Summer;Blue;M;chrome;NOT EXECUTED;0.0;None
+Summer;Blue;L;chrome;NOT EXECUTED;0.0;None
+Summer;Green;M;chrome;NOT EXECUTED;0.0;None
+Summer;Green;L;chrome;NOT EXECUTED;0.0;None
+Summer;Yellow;M;chrome;NOT EXECUTED;0.0;None
+Summer;Yellow;L;chrome;NOT EXECUTED;0.0;None

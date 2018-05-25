@@ -1,0 +1,2 @@
+test_id;country;file;address;name;lastname;province;city;phone;month;year;cvv2;nif;CP;CPstore
+Example;/es;testdatafile.csv;Not a real direction;John;Doe;VALENCIA;Valencia;961548600;06;2020;357;73597423E;46018;46018 Valencia, España

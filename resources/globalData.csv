@@ -1,0 +1,2 @@
+column;visa_number;mastercard_number;amex_number;affinity_number;default_number;cvv2;default_email
+data;4242424242424242;5555555555554444;378282246310005;8060300000001234;0000000000000000;357;debugers.amaris@gmail.com

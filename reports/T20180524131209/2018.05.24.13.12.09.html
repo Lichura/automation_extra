@@ -1,0 +1,1322 @@
+<html>
+	<head>
+		<title>
+			Demo client test report 2018.05.24.13.12.09
+		</title>
+		<meta charset="UTF-8">
+		</meta>
+		<style>
+			table {font-family: arial, sans-serif; border-collapse: collapse; width: 100%;}
+td, th {border: 1px solid #dddddd; text-align: left; padding: 8px; text-align:center;}
+tr:nth-child(even) {background-color: #dddddd;}
+		</style>
+	</head>
+	<body>
+		<hr>
+		<h1 align="center">
+			Online shop test report from 24/05/2018
+		</h1>
+		<hr>
+	</body>
+	<br>
+	<div  name="browser_table">
+		<table>
+			<tbody>
+				<tr>
+					<th>
+Browser: Chrome
+					</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br>
+	<div  name="results_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Result
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						Failure
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						18
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="dress_type_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Dress type
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						Casual
+					</th>
+					<th>
+						Evening
+					</th>
+					<th>
+						Summer
+					</th>
+				</tr>
+				<tr>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						4
+					</th>
+					<th  style="color: red;">
+						12
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="color_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Color
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						Orange
+					</th>
+					<th>
+						Beige
+					</th>
+					<th>
+						Pink
+					</th>
+					<th>
+						White
+					</th>
+					<th>
+						Black
+					</th>
+					<th>
+						Blue
+					</th>
+					<th>
+						Green
+					</th>
+					<th>
+						Yellow
+					</th>
+				</tr>
+				<tr>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						4
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+					<th  style="color: red;">
+						2
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="size_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Size
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						M
+					</th>
+					<th>
+						L
+					</th>
+				</tr>
+				<tr>
+					<th>
+						0
+					</th>
+					<th>
+						0
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						9
+					</th>
+					<th  style="color: red;">
+						9
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div  name="exception_table">
+		<table>
+			<caption>
+				<b>
+					Online shop: Exception
+				</b>
+			</caption>
+			<tbody>
+				<tr>
+					<th>
+						NullPointerException
+					</th>
+				</tr>
+				<tr>
+					<th  style="color: red;">
+						18
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+	</div>
+	<br>
+	<div>
+		<h3>
+			Online shop: Page Failures
+		</h3>
+		<hr>
+		<div  id="img0">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Casual; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E0">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img0').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img0 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img1">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Casual; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E1">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img1').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img1 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img2">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Beige; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E2">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img2').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img2 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img3">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Beige; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E3">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img3').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img3 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img4">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Pink; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E4">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img4').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img4 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img5">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Evening; 
+				</b>
+Color: 
+				<b>
+					Pink; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E5">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img5').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img5 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img6">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					White; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E6">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img6').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img6 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img7">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					White; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E7">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img7').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img7 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img8">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Black; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E8">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img8').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img8 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img9">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Black; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E9">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img9').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img9 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img10">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E10">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img10').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img10 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img11">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Orange; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E11">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img11').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img11 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img12">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Blue; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E12">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img12').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img12 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img13">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Blue; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E13">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img13').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img13 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img14">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Green; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E14">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img14').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img14 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img15">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Green; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E15">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img15').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img15 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img16">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Yellow; 
+				</b>
+Size: 
+				<b>
+					M; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E16">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img16').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img16 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+		<div  id="img17">
+			<p  title="FAILURE">
+				<b  style="color: red;">
+					[Failure case]
+				</b>
+Dress type: 
+				<b>
+					Summer; 
+				</b>
+Color: 
+				<b>
+					Yellow; 
+				</b>
+Size: 
+				<b>
+					L; 
+				</b>
+			</p>
+			<div  class="dropdown" style="display: none;">
+				<p  title="FAILURE" name="E17">
+					java.lang.NullPointerException
+	at com.automation.model.webdriver.DriverHelper.setPropertyDriverPath(DriverHelper.java:221)
+	at com.automation.model.webdriver.DriverHelper.initializeDriver(DriverHelper.java:271)
+	at com.automation.model.webdriver.DriverHelper.go(DriverHelper.java:619)
+	at com.project.steps.Steps.user_goes_to(Steps.java:16)
+	at tests.PedirCita.lambda$onlineShop$0(PedirCita.java:35)
+	at com.automation.model.testing.UserStory.run(UserStory.java:265)
+	at tests.PedirCita.onlineShop(PedirCita.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+				</p>
+			</div>
+			<script>
+				document.getElementById('img17').addEventListener('click', changeVisibility);
+function changeVisibility(){
+	var dropdown = document.querySelector("#img17 > .dropdown");
+	if(dropdown.getAttribute('style') == '') {
+		dropdown.setAttribute('style','display:none;');
+	}
+	else{
+ 		dropdown.setAttribute('style','');
+	}
+}
+			</script>
+		</div>
+		<hr>
+	</div>
+</html>
